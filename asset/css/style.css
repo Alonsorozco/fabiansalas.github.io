@@ -1,0 +1,37 @@
+:root{
+    --coloronegro:#000000;
+    --big:#17a2b8;
+}
+body{
+    background-color: var(--coloronegro);
+    font-family:'Antonio', sans-serif;
+
+    
+}
+
+.perfil{
+
+    width: 4rem;
+    border-radius: 50%;
+    box-shadow: 2px 6px 8px black;
+}
+
+.datos{
+
+ padding-top: 10rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+
+}
+
+
+.logo-footer ,.icon-footer, .icon-grup{
+    display: inline-block;
+}
+
+
+.icon-footer{
+    margin-left: 1rem;
+}
