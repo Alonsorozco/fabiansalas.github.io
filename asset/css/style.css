@@ -1,20 +1,25 @@
 :root{
-    --coloronegro:#000000;
+    --coloronegro:#04141d;
     --big:#17a2b8;
 }
+
 body{
     background-color: var(--coloronegro);
     font-family:'Antonio', sans-serif;
 
     
 }
-
+.navbar {
+    background-color: rgb(0, 0, 0) !important;
+  }
 .perfil{
 
     width: 4rem;
     border-radius: 50%;
     box-shadow: 2px 6px 8px black;
 }
+
+
 
 .datos{
 
@@ -35,3 +40,4 @@ body{
 .icon-footer{
     margin-left: 1rem;
 }
+
