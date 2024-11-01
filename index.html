@@ -37,7 +37,7 @@
                 <a class="nav-link" href="#">Perfil Profesional</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Algo mas de mi</a>
+                <a class="nav-link" href="#">Algo mas sobre de mi</a>
               </li>
               
               <li class="nav-item">
@@ -312,57 +312,159 @@
     </div>
     <!-- fin -->
 
-
-    <!--Section destacados card -->
-    <section id="destacados" class="m-card">
+    <section id="somos" class="quieneSomos m-quienesomos">
         <div class="container text-white mt-5">
             <h2 class="text-center mb-5">Educacion</h2>
-            <div class="container-fluid  bg-white">
+            <div class="container-fluid bg-white">
                 <hr>
             </div>
-            <div class="container-fluid">
-                <div class="row m-2">
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-3  mb-3 ">
-                        <div class="card card-container ">
-                           
-                            <div class="card-body bg-black">
-                                <h4 class="font-weight-lighter">Torres del Paine</h4>
-                                <p class="card-text text-white">El Parque Nacional Torres del Paine, en la región de la
-                                    Patagonia de Chile, es conocido por sus altas montañas, los témpanos de azul
-                                    brillante que se aferran a los glaciares y las pampas doradas (praderas) que
-                                    albergan fauna poco común, como los guanacos.</p>
-                            </div>
+            <div class="row m-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4  mb-3 ">
+                    <div class="card sin-borde">
+                        <div class="card-header bg-dark text-center ">
+                            <button type="button" class="btn bg-dark text-white" data-toggle="modal"
+                                data-toggle="tooltip" data-target="#modalavion" data-placement="bottom"
+                                title="Mas informacion"><img src="asset\img\universidad_de_las_americas_logo.jpg" alt="" srcset=""></button>
                         </div>
+                        <ul class="list-group list-group-flush text-white ">
+                            <li class="list-group-item bg-negro ">
+                                <h4>Licenciado en ciencias de Ingenieria (Titulado) </h4>
+                                <p>Univeridad de las Americas 2008-2013</p>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-3   mb-3">
-                        <div class="card card-container">
-                            
-                            <div class="card-body bg-black">
-                                <h4 class="font-weight-lighter">Desierto de Atacama.</h4>
-                                <p class="card-text text-white">El desierto de Atacama es el desierto no polar más árido
-                                    de la Tierra.​​​​​​ Se extiende en el Norte Grande de Chile, abarcando las regiones
-                                    de Arica y Parinacota, Tarapacá, Antofagasta, Atacama y el norte de la de Coquimbo;
-                                    cubre una superficie aproximada de 105 000 km.</p>
-                            </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4   mb-3 ">
+                    <div class="card sin-borde">
+                        <div class="card-header bg-dark text-center">
+                            <button type="button" class="btn bg-dark text-white" data-toggle="modal"
+                                data-toggle="tooltip" data-placement="bottom" title="Mas informacion"
+                                data-target="#modalmontaña" class=""><img src="asset\img\universidad_de_las_americas_logo.jpg" alt="" srcset=""></button>
+
                         </div>
+
+                        <ul class="list-group list-group-flush text-white">
+                            <li class="list-group-item bg-negro ">
+                                <h4>Ingeniero En Sonido (titulado) </h4>
+                                <p>Univeridad de las Americas 2008-2013</p>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-3  mb-3">
-                        <div class="card card-container">
-                     
-                            <div class="card-body bg-black">
-                                <h4 class="font-weight-lighter">Salar De Atacama.</h4>
-                                <p class="card-text text-white ">El salar de Atacama es el mayor depósito salino de
-                                    Chile emplazado en la Región de Antofagasta y se sitúa exactamente entre dos comunas
-                                    chilenas,donde llegan aguas portadoras de sales. Al evaporarse el agua, aumenta la
-                                    concentración de las sales en el luga </p>
-                            </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4  ">
+                    <div class="card sin-borde">
+                        <div class="card-header bg-dark text-center">
+                            <button type="button" class="btn bg-dark text-white" data-toggle="modal"
+                                data-toggle="tooltip" data-placement="bottom" title="Mas informacion"
+                                data-target="#modalruta" class=""><img src="asset\img\desafiolatam_logo.jpg" alt="" srcset=""></button>
+
                         </div>
+                        <ul class="list-group list-group-flush text-white">
+                            <li class="list-group-item bg-negro ">
+                                <h4>Desarrollador Full Stack Ruby and Rail (Titulado) </h4>
+                                <p> Desafio Latam 2022-2023</p>
+                            </li>
+                        </ul>
                     </div>
-                    </div>
+                </div>
+    </section>
+    <!-- fin -->
+
+    <!-- MODAL 1 -->
+    <div class="modal fade" id="modalavion" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Transporte Aereo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <i class=" fas fa-plane icon-width"></i>
+                    <p>El transporte aéreo o transporte por avión es el servicio de trasladar de un lugar a otro,
+                        pasajeros o cargamento, mediante la utilización de aeronaves.
+                        Este modo de transporte, en principio, se pensó y desarrolló únicamente para pasajeros; sin
+                        embargo, gracias al uso de contenedores aéreos y al diseño de nuevos aviones destinados a carga,
+                        el volumen de mercancías transportado por este medio se incrementa año tras año. Los adelantos
+                        de la navegación aérea, de las telecomunicaciones y de las facilidades electrónicas han
+                        permitido que la aviación haya progresado de forma asombrosa.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-info" data-toggle="popover" title="Contacto"
+                        data-content="Transporteaereo@viajeschile.cl +56953944388">Contacto</button>
                 </div>
             </div>
         </div>
-   
+    </div>
+    <!-- fin -->
+
+    <!-- MODAL 2 -->
+    <div class="modal fade" id="modalmontaña" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">La Montaña</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <i class="fas fa-mountain icon-width"></i>
+                    <p>Una montaña es una forma topográfica del relieve terrestre positiva, una eminencia natural que se
+                        caracteriza por su altitud y, más generalmente, por su altura relativa, o incluso por su
+                        volumen, pendiente, espaciado o continuidad.2​ Aparecen como parte de un conjunto —una cadena
+                        montañosa, sea cordillera, macizo, sierra...— o formando un relieve aislado.Nota 2​Nota 3​Nota
+                        4​Nota 5​ No existe una definición única de montaña, un término que apareció en Europa entre los
+                        siglos X y XII, y son numerosos los localismos y regionalismos usados para describir este
+                        accidente geográfico, que puede referirse tanto a una cumbre empinada como a una elevación
+                        simple del terreno como una colina, así como al medio en su conjunto</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-info" data-toggle="popover" title="Contacto"
+                        data-content="Deportesdemotaña@viajeschile.cl +56953944388">Contacto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin -->
+
+    <!-- MODAL 3 -->
+    <div class="modal fade" id="modalruta" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">El Senderismo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <i class="fas fa-route icon-width"></i>
+                    <p>El senderismo es una actividad deportiva no competitiva que consiste en caminar siguiendo un
+                        itinerario determinado. Se acostumbra a realizar en senderos balizados y homologados por el
+                        organismo competente de cada país, pero también por sendas, caminos rurales y vías verdes sin
+                        homologar. El senderismo busca acercar a las personas al medio natural y al conocimiento de la
+                        zona a través del patrimonio y los elementos etnográficos y culturales tradicionales, utilizando
+                        especialmente senderos de tierra, antiguos caminos de herradura y carreteros, cañadas y caminos
+                        reales, caminos forestales y otros, evitando en lo posible el tránsito a través de rutas
+                        asfaltadas u hormigonadas. El senderismo constituye una simbiosis entre deporte, cultura y medio
+                        ambiente.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-info" data-toggle="popover" title="Contacto"
+                        data-content="Deportesdesenderismo@viajeschile.cl +56953944388">Contacto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin -->
 
     <!--Section contactos-->
     <section id="contactos" class="m-contacto">
