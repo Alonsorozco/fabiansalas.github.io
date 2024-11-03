@@ -15,8 +15,8 @@ body{
 .perfil{
 
     width: 4rem;
-    border-radius: 50%;
-    box-shadow: 2px 6px 8px black;
+    border-radius: 70%;
+    box-shadow: 5px 5px 6px rgb(50, 49, 49);
 }
 
 
@@ -24,12 +24,17 @@ body{
 .datos{
 
  padding-top: 10rem;
- display: flex;
- align-items: center;
- justify-content: center;
 
 
 }
+
+.datos2{
+
+    padding-top: 10rem;
+    margin-left: 40rem;
+   
+   
+   }
 
 
 .logo-footer ,.icon-footer, .icon-grup{
