@@ -46,3 +46,12 @@ body{
     margin-left: 1rem;
 }
 
+
+
+@media screen and (min-width: 600px){
+
+    .datos2{
+        margin-left: 40rem;
+    }
+    }
+
